@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "floatingcity"
+version = "0.1.0"
+description = ""
+authors = ["David Berthiaume <david@papercrane.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pycairo = "^1.20.1"
+scikit-learn = "^1.0.2"
+Shapely = "^1.8.0"
+tqdm = "^4.62.3"
+trimesh = "^3.9.42"
+pyrender = "^0.1.45"
+triangle = "^20200424"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
