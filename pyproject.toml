@@ -13,6 +13,7 @@ tqdm = "^4.62.3"
 trimesh = "^3.9.42"
 pyrender = "^0.1.45"
 triangle = "^20200424"
+fire = "^0.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
